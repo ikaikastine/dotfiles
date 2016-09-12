@@ -1,0 +1,10 @@
+# List of other aliases http://haacked.com/archive/2014/07/28/github-flow-aliases/
+[alias]
+  # Staging
+  a = add
+  aa = add --all
+
+  # Commit
+  c = commit
+  cm = !git add -A && git commit -m
+  co = checkout
