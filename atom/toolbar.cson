@@ -16,6 +16,11 @@
     icon: "globe"
     callback: "open-in-browser:open"
     tooltip: "Open In Browser"
+    style:
+      color: "#4078C0"
+  }
+  {
+    type: "spacer"
   }
   {
     type: "button"
@@ -26,18 +31,9 @@
   }
   {
     type: "button"
-    icon: "repo"
-    tooltip: "Toggle Projects"
-    callback: "project-manager:list-projects"
-  }
-  {
-    type: "spacer"
-  }
-  {
-    type: "button"
-    icon: "gear"
-    callback: "flex-tool-bar:edit-config-file"
-    tooltip: "Edit Tool Bar"
+    icon: "checklist"
+    tooltip: "Show Todos"
+    callback: "todo-show:find-in-workspace"
   }
   {
     type: "spacer"
@@ -57,5 +53,14 @@
     tooltip: "Toggle Terminal"
     style:
       color: "#FA4F28"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "gear"
+    callback: "settings-view:open"
+    tooltip: "Open Settings"
   }
 ]
