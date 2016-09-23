@@ -5,11 +5,25 @@
 [
   {
     type: "url"
-    icon: "octoface"
+    icon: "mark-github"
     url: "http://github.com"
     tooltip: "Github Page"
+    style:
+      color: "#4078C0"
   }
-  
+  {
+    type: "button"
+    icon: "globe"
+    callback: "open-in-browser:open"
+    tooltip: "Open In Browser"
+  }
+  {
+    type: "button"
+    icon: "document"
+    callback: "appliction:new-file"
+    tooltip: "New File"
+    iconset: "ion"
+  }
   {
     type: "button"
     icon: "repo"
@@ -27,5 +41,21 @@
   }
   {
     type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "circuit-board"
+    callback: "git-diff:toggle-diff-list"
+    tooltip: "Git Diff"
+    style:
+      color: "#FA4F28"
+  }
+  {
+    type: "button"
+    icon: "terminal"
+    callback: "terminal-plus:toggle"
+    tooltip: "Toggle Terminal"
+    style:
+      color: "#FA4F28"
   }
 ]
