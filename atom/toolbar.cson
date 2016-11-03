@@ -9,7 +9,7 @@
     url: "http://github.com"
     tooltip: "Github Page"
     style:
-      color: "#4078C0"
+      color: "rgb(244, 204, 49)"
   }
   {
     type: "button"
@@ -17,27 +17,27 @@
     callback: "open-in-browser:open"
     tooltip: "Open In Browser"
     style:
-      color: "#4078C0"
+      color: "rgb(244, 204, 49)"
   }
-  {
-    type: "spacer"
-  }
+
   {
     type: "button"
     icon: "document"
     callback: "appliction:new-file"
     tooltip: "New File"
     iconset: "ion"
+    style:
+      color: "#4078C0"
   }
   {
     type: "button"
     icon: "checklist"
     tooltip: "Show Todos"
     callback: "todo-show:find-in-workspace"
+    style:
+      color: "#4078C0"
   }
-  {
-    type: "spacer"
-  }
+
   {
     type: "button"
     icon: "circuit-board"
@@ -54,9 +54,7 @@
     style:
       color: "#FA4F28"
   }
-  {
-    type: "spacer"
-  }
+
   {
     type: "button"
     icon: "gear"

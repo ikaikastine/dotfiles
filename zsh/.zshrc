@@ -86,8 +86,10 @@ export PATH=~/android/platform-tools:$PATH
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-# git_syn
+# git_sync
 export PATH="$PATH:$HOME/development"
+
+export PATH="$PATH:/usr/texbin"
 
 # RVM 
 source ~/.profile
