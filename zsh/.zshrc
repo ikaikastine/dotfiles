@@ -93,3 +93,6 @@ export PATH="$PATH:/usr/texbin"
 
 # RVM 
 source ~/.profile
+
+autoload -U promptinit; promptinit
+prompt pure
