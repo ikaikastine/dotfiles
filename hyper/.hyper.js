@@ -13,10 +13,12 @@ module.exports = {
     cursorShape: 'BLOCK',
 
     // color of the text
-    foregroundColor: '#eceff1',
+    //foregroundColor: '#eceff1',
+		foregroundColor: 'rgb(255,255,255)',
 
     // terminal background color
-    backgroundColor: '#263238',
+    //backgroundColor: '#263238',
+		backgroundColor: 'rgb(53,56,69)',
 
     // border color (window, tabs)
     borderColor: '#333',
@@ -33,6 +35,8 @@ module.exports = {
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
+/*
+    // Material Atom color scheme
     colors: {
       black: '#546e7a',
       red: '#ff5252',
@@ -48,6 +52,28 @@ module.exports = {
       lightYellow: '#ffe57f',
       lightBlue: '#90d8ff',
       lightMagenta: '#ff90ab',
+      lightCyan: '#a7fdeb',
+      lightWhite: '#ffffff'
+    },
+*/
+
+    //Dracula Color Scheme
+    colors: {
+      black: '#546e7a',
+      blue: '#40c4ff',
+      cyan: '#64fcda',
+      green: '#50fa7b',
+      orange: '#ffb86c',
+      magenta: '#bd93f9',
+      red: '#ec644b',
+      yellow: '#f1fa8c',
+      white: '#ffffff',
+      lightBlack: '#b0bec5',
+      lightRed: '#ec644b',
+      lightGreen: '#b9f6ca',
+      lightYellow: '#fdf9af',
+      lightBlue: '#90d8ff',
+      lightMagenta: '#ff79c6',
       lightCyan: '#a7fdeb',
       lightWhite: '#ffffff'
     },
