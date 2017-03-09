@@ -18,7 +18,7 @@ module.exports = {
 
     // terminal background color
     //backgroundColor: '#263238',
-		backgroundColor: 'rgb(53,56,69)',
+		backgroundColor: '#353845',
 
     // border color (window, tabs)
     borderColor: '#333',
@@ -57,21 +57,24 @@ module.exports = {
     },
 */
 
-    //Dracula Color Scheme
+    // Custom Color Scheme
     colors: {
       black: '#546e7a',
       blue: '#40c4ff',
       cyan: '#64fcda',
       green: '#50fa7b',
-      orange: '#ffb86c',
+      //orange: '#ffb86c',
+      orange: '#fad050',
       magenta: '#bd93f9',
       red: '#ec644b',
-      yellow: '#f1fa8c',
+      //yellow: '#f1fa8c',
+      yellow: '#fad050',
       white: '#ffffff',
       lightBlack: '#b0bec5',
       lightRed: '#ec644b',
       lightGreen: '#b9f6ca',
       lightYellow: '#fdf9af',
+      lightOrange: '#ffc689',
       lightBlue: '#90d8ff',
       lightMagenta: '#ff79c6',
       lightCyan: '#a7fdeb',
