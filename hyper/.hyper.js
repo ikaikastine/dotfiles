@@ -59,17 +59,19 @@ module.exports = {
 
     // Custom Color Scheme
     colors: {
+
       black: '#546e7a',
-      blue: '#40c4ff',
-      cyan: '#64fcda',
+      //blue: '#40c4ff',
+      blue: '#90d8ff',
+      //cyan: '#64fcda',
+      cyan: '#90ffef',
       green: '#50fa7b',
-      //orange: '#ffb86c',
       orange: '#fad050',
       magenta: '#bd93f9',
       red: '#ec644b',
-      //yellow: '#f1fa8c',
       yellow: '#fad050',
       white: '#ffffff',
+
       lightBlack: '#b0bec5',
       lightRed: '#ec644b',
       lightGreen: '#b9f6ca',
@@ -77,8 +79,9 @@ module.exports = {
       lightOrange: '#ffc689',
       lightBlue: '#90d8ff',
       lightMagenta: '#ff79c6',
-      lightCyan: '#a7fdeb',
+      lightCyan: '#90ffef',
       lightWhite: '#ffffff'
+
     },
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
