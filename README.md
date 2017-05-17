@@ -11,4 +11,7 @@ cd dotfiles
 # Install selected dotfile
 stow tmux
 stow hyper
-``` 
+```
+
+Stow, by default, installs the files/packages in the directory above.
+Make sure that the dotfiles repository was created on the $HOME directory. 
