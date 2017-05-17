@@ -17,8 +17,8 @@ module.exports = {
 		foregroundColor: 'rgb(255,255,255)',
 
     // terminal background color
-    //backgroundColor: '#263238',
-		backgroundColor: '#353845',
+    backgroundColor: '#000',
+		//backgroundColor: '#353845',
 
     // border color (window, tabs)
     borderColor: '#333',
@@ -35,7 +35,7 @@ module.exports = {
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
-/*
+
     // Material Atom color scheme
     colors: {
       black: '#546e7a',
@@ -55,38 +55,36 @@ module.exports = {
       lightCyan: '#a7fdeb',
       lightWhite: '#ffffff'
     },
-*/
 
+
+/*
     // Custom Color Scheme
     colors: {
 
       black: '#546e7a',
-      //blue: '#40c4ff',
       blue: '#90d8ff',
-      //cyan: '#64fcda',
       cyan: '#90ffef',
       green: '#50fa7b',
       orange: '#fad050',
       magenta: '#bd93f9',
-      red: '#ec644b',
+      red: '#fa7b50',
       yellow: '#fad050',
       white: '#ffffff',
-
       lightBlack: '#b0bec5',
-      lightRed: '#ec644b',
-      lightGreen: '#b9f6ca',
-      lightYellow: '#fdf9af',
-      lightOrange: '#ffc689',
-      lightBlue: '#90d8ff',
-      lightMagenta: '#ff79c6',
+      lightRed: '#fba284',
+      lightGreen: '#84fba2',
+      lightYellow: '#fbde84',
+      lightOrange: '#fbde84',
+      lightBlue: '#b1e3ff',
+      lightMagenta: '#d0b3fa',
       lightCyan: '#90ffef',
       lightWhite: '#ffffff'
 
     },
-
+*/
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
     // if left empty, your system's login shell will be used by default
-    shell: '',
+    shell: '/bin/zsh',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: ['-i'])
     // by default ['--login'] will be used
@@ -113,7 +111,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [],
+  plugins: ['flux-hyperterm'],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
