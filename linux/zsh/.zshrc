@@ -84,24 +84,13 @@ source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Android
 export PATH=~/android/platform-tools:$PATH
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-# git_sync
-# export PATH="$PATH:$HOME/dev/scripts"
-
-export PATH="$PATH:/usr/texbin"
-
-# RVM
-source ~/.profile
-
 #Auto load prompt system
 #autoload -U promptinit; promptinit
 #prompt pure
 
 alias python='python3'
 
-
-source "/Users/kevin/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+setxkbmap -option caps:ctrl_modifier
 
 # Setup options for spaceship
 # ORDER
@@ -136,3 +125,6 @@ SPACESHIP_HOST_SUFFIX=") "
 # DIR
 SPACESHIP_DIR_PREFIX='' # disable directory prefix, cause it's not the first section
 SPACESHIP_DIR_TRUNC='1' # show only last directory
+
+
+source "/home/kevin/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
