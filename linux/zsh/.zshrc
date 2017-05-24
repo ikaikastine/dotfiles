@@ -45,7 +45,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ruby golang django scala gem history history-substring-search terminalapp brew nanoc)
+plugins=(git ruby golang django scala gem history history-substring-search terminalapp brew nanoc zsh-syntax-highlighting)
 
 # User configuration
 
@@ -79,8 +79,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 # Android
 export PATH=~/android/platform-tools:$PATH
 
@@ -91,6 +89,8 @@ export PATH=~/android/platform-tools:$PATH
 alias python='python3'
 
 setxkbmap -option caps:ctrl_modifier
+
+source "/home/kevin/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 # Setup options for spaceship
 # ORDER
@@ -124,7 +124,4 @@ SPACESHIP_HOST_SUFFIX=") "
 
 # DIR
 SPACESHIP_DIR_PREFIX='' # disable directory prefix, cause it's not the first section
-SPACESHIP_DIR_TRUNC='1' # show only last directory
-
-
-source "/home/kevin/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+SPACESHIP_DIR_TRUNC='1'
